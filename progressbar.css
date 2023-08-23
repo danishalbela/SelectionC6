@@ -1,0 +1,45 @@
+.progressbar{
+    border: 5px solid blue;
+    margin-top: 20px;
+    height: 350px;
+    /* display: inline-block; */
+}
+.main{
+    border: 2px solid red;
+    height: 80%;
+    width: 16%;
+    display: inline-block;
+    margin: 20px;
+}
+.outer>h1{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 50px;
+}
+.outer{
+    /* border:2px solid red; */
+    height: 200px;
+    width: 200px;
+     border-radius: 50%;
+    background-image: conic-gradient(red 0deg,red 250deg,rgb(255, 255, 255) 250deg);
+}
+.inner{ 
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    left: 10%;
+
+}
+.inner>h1{
+    /* border: 2px solid red; */
+    position: absolute;
+   top: 40%;
+   left: 40%;
+}
+/* .main:first-child{
+    margin-left: 50px;
+} */
